@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.header_part{
+    width:50%;
+    height: 700px;
+    background-color: #DC2626;
+    margin-top: 25px;
+    margin-left: 18px;
+    margin-bottom: 10px;
+   text-align:center;
+}
+
+#Project_Name{
+    font-size: 15px;
+    font-weight: 800;
+    color:#FFFFFF;
+    padding-top: 160px;
+    font-style: bold;
+    margin-right: 80px;
+}
+
+#Project_Description{
+    font-size: 9px;
+    font-weight: 400;
+    color:#ffffffbe;
+    padding-top: 15px;
+    margin-right: 90px;
+    font-style: bold;
+}
+
+.statistics{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+#statistics1{
+    font-size: 20px;
+    font-weight: 800;
+    color:#FFFFFF;
+    margin-left: 67px;
+}
+
+#statistics2{
+    font-size: 10px;
+    font-weight: 800;
+    color:#ffffffe0;
+    margin-left: 75px;
+}
+
+#statistics3{
+    font-size: 20px;
+    font-weight: 800;
+    color:#FFFFFF;
+    padding-right: 25px;
+}
+
+#statistics4{
+    font-size: 10px;
+    font-weight: 800;
+    color:#ffffffe0;
+}
+
+#statistics5{
+    font-size: 20px;
+    font-weight: 800;
+    color:#FFFFFF;
+    padding-right: 150px;
+   
+} 
+
+#statistics6{
+    font-size: 10px;
+    font-weight: 800;
+    color:#ffffffe0;
+    padding-right: 175px;
+}
