@@ -6,19 +6,28 @@
 
 .header_part{
     width:50%;
-    height: 700px;
+    height: 650px;
     background-color: #DC2626;
     margin-top: 25px;
     margin-left: 18px;
     margin-bottom: 10px;
    text-align:center;
+    
+}
+
+.header_part1{
+   display :flex;
+   justify-content: space-between;
+   height: 700px;
+   width: auto;
+  
 }
 
 #Project_Name{
     font-size: 15px;
     font-weight: 800;
     color:#FFFFFF;
-    padding-top: 160px;
+    padding-top: 155px;
     font-style: bold;
     margin-right: 80px;
 }
@@ -78,4 +87,117 @@
     font-weight: 800;
     color:#ffffffe0;
     padding-right: 175px;
+}
+
+#buttons{
+    text-align: center;
+    padding-top: 195px;
+    padding-right: 60px;
+    border-right: 1px solid #e84646df;
+}
+
+.btn{
+    font-size: 14px;
+    font-weight:600;
+    font-style: bold;
+    color: #0F172A;
+    background-color: #f3909021;
+    padding: 8px 60px;
+    border-radius:3px;
+    cursor: pointer;
+}
+
+.btn1{
+
+    font-size: 14px;
+    font-weight: 400;
+    font-style: bold;
+    color:#1E293B;
+    background-color: #bcb8b80f;
+    padding: 8px 30px;
+    cursor: pointer;
+    border-radius:2px;
+    margin-left: 5px;
+}
+
+.btn_headline{
+    font-size: 18px;
+    font-weight: 700;
+    color:#0F172A;
+    margin-top: 25px;
+    padding-right: 225px;
+}
+
+.btn_subheadline{
+     font-size: 11px;
+    font-weight: 400;
+    color:#64748B;
+    margin-top: 8px;
+    padding-right: 168px;
+
+}
+
+.email_headline{
+    font-size: 14px;
+    font-weight: 600;
+    color:#1E293B;
+    margin-top: 18px;
+   padding-right: 255px;
+}
+.email_input{
+ padding-right: 172px;
+ margin-top: 4px;
+ height: 28px;
+ border-radius: 3px;
+ border: 1px solid #CBD2D9;
+ background-color: #FFFFFF;
+}
+
+.password_headline{
+    font-size: 14px;
+    font-weight: 600;
+    color:#1E293B;
+    margin-top: 10px;
+   padding-right: 280px;
+}
+
+.password_input{
+ padding-right: 170px;
+ margin-top: 3px;
+ height: 28px;
+ border-radius: 3px;
+ border: 1px solid #CBD2D9;
+ background-color: #FFFFFF;
+ margin-bottom: 15px;
+}   
+
+.Forgot_password{
+    font-size: 14px;
+    font-weight: 600;
+    color:#B91C1C;
+}
+
+.checkbox-container{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 25px;
+}
+
+.btn3{
+    background-color:#DC2626;
+    border:1px solid #DC2626;
+    font-size: 14px;
+    padding: 12px 150px;
+    color: #FFFFFF;
+    font-weight:600;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.last_heading{
+    font-size: 12px;
+    font-weight: 600;
+    color:#64748B;
+    margin-top: 10px;
 }
